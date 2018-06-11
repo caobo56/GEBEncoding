@@ -3,6 +3,14 @@ GEBEncoding是一个 beencodeing 的OC 函数库。
 
 ### 使用方法
 
+引入pod库
+
+```
+    pod 'GEBEncoding'
+```
+
+GEBEncoding 的 testCase
+
 ```
 
 -(void)testCase{
