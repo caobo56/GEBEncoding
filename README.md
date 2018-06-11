@@ -7,10 +7,10 @@ Bencode是BitTorrent用在传输数据结构的编码方式。
 
 Bencode（发音为 Bee-Encode）这种编码方式支持四种数据型态：
 
-• 字元串
-• 整数
-• 串列
-• 字典表
+* 字元串
+* 整数
+* 串列
+* 字典表
 
 Bencode 最常被用在.torrent文档中，文件里的元数据都是 Bencode 过的字典表。其也被用在tracker返回响应时使用。
 
