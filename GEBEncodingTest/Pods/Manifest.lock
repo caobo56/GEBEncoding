@@ -1,0 +1,16 @@
+PODS:
+  - GEBEncoding (1.0.1)
+
+DEPENDENCIES:
+  - GEBEncoding
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GEBEncoding
+
+SPEC CHECKSUMS:
+  GEBEncoding: 61523c89f33096b60889dd0bb226793679bc574c
+
+PODFILE CHECKSUM: 6df3887bfa04e870de1e8696b8b3bbe8b8f6792b
+
+COCOAPODS: 1.5.0

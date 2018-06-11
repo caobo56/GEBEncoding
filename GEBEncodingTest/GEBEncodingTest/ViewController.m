@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "GEBEncoding.h"
+#import <GEBEncoding.h>
 
 @interface ViewController ()
 
