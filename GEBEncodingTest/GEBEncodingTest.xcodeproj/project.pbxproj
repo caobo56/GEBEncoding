@@ -15,8 +15,6 @@
 		A8E51AEF20CE71E1007D0299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E51AEE20CE71E1007D0299 /* main.m */; };
 		A8E51AF920CE71E1007D0299 /* GEBEncodingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E51AF820CE71E1007D0299 /* GEBEncodingTestTests.m */; };
 		A8E51B0420CE71E1007D0299 /* GEBEncodingTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E51B0320CE71E1007D0299 /* GEBEncodingTestUITests.m */; };
-		A8E51B1620CE7263007D0299 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E51B1220CE7263007D0299 /* OrderedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A8E51B1720CE7263007D0299 /* GEBEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E51B1320CE7263007D0299 /* GEBEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +51,6 @@
 		A8E51AFF20CE71E1007D0299 /* GEBEncodingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEBEncodingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E51B0320CE71E1007D0299 /* GEBEncodingTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEBEncodingTestUITests.m; sourceTree = "<group>"; };
 		A8E51B0520CE71E1007D0299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8E51B1220CE7263007D0299 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
-		A8E51B1320CE7263007D0299 /* GEBEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEBEncoding.m; sourceTree = "<group>"; };
-		A8E51B1420CE7263007D0299 /* GEBEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEBEncoding.h; sourceTree = "<group>"; };
-		A8E51B1520CE7263007D0299 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +101,6 @@
 		A8E51ADE20CE71DF007D0299 /* GEBEncodingTest */ = {
 			isa = PBXGroup;
 			children = (
-				A8E51B1120CE7263007D0299 /* GEBEncoding */,
 				A8E51ADF20CE71DF007D0299 /* AppDelegate.h */,
 				A8E51AE020CE71DF007D0299 /* AppDelegate.m */,
 				A8E51AE220CE71DF007D0299 /* ViewController.h */,
@@ -137,17 +130,6 @@
 				A8E51B0520CE71E1007D0299 /* Info.plist */,
 			);
 			path = GEBEncodingTestUITests;
-			sourceTree = "<group>";
-		};
-		A8E51B1120CE7263007D0299 /* GEBEncoding */ = {
-			isa = PBXGroup;
-			children = (
-				A8E51B1420CE7263007D0299 /* GEBEncoding.h */,
-				A8E51B1320CE7263007D0299 /* GEBEncoding.m */,
-				A8E51B1520CE7263007D0299 /* OrderedDictionary.h */,
-				A8E51B1220CE7263007D0299 /* OrderedDictionary.m */,
-			);
-			path = GEBEncoding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E51AE420CE71DF007D0299 /* ViewController.m in Sources */,
-				A8E51B1720CE7263007D0299 /* GEBEncoding.m in Sources */,
-				A8E51B1620CE7263007D0299 /* OrderedDictionary.m in Sources */,
 				A8E51AEF20CE71E1007D0299 /* main.m in Sources */,
 				A8E51AE120CE71DF007D0299 /* AppDelegate.m in Sources */,
 			);
